@@ -1,0 +1,26 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.font_family{
+    font-family: 'Montserrat', sans-serif;
+}
+.fs_vip{
+    font-size: 4.5rem;
+}
+.fs_vip2{
+    font-size: 2rem;
+}
+.btn {
+    --bs-btn-padding-x: 6rem;
+    --bs-btn-padding-y: 2rem;
+    --bs-btn-border-radius: 0;
+    --bs-btn-border-width: 3px;
+    border-color: black;
+}
+.btn:hover {
+    color: var(--bs-btn-hover-color);
+    background-color: red;
+    border-color: red;
+}
